@@ -87,7 +87,7 @@ public class DressPageObject extends BasePage{
 			
 		}
 		
-		public String getTxtCart()
+		public String getTxt()
 		{
 			isElementVisible(txtAddToCart);
 			return txtAddToCart.getText();
