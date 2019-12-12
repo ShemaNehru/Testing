@@ -66,7 +66,7 @@ public class DressPageObject extends BasePage{
 			return txtLarge;
 		}
 		
-		public int getProductCount()
+		public int getCount()
 		{
 			
 			 return firstProduct.size();

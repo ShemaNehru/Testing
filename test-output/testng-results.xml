@@ -2,33 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="19875" started-at="2019-12-11T05:31:34Z" finished-at="2019-12-11T05:31:54Z">
+  <suite name="Default suite" duration-ms="1498" started-at="2019-12-12T13:36:44Z" finished-at="2019-12-12T13:36:46Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="19875" started-at="2019-12-11T05:31:34Z" finished-at="2019-12-11T05:31:54Z">
-      <class name="package2.ProductPageTest">
-        <test-method status="PASS" signature="verifyLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:package2.ProductPageTest@100fc185]" name="verifyLogin" duration-ms="19838" started-at="2019-12-11T05:31:34Z" finished-at="2019-12-11T05:31:54Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://opensource-demo.orangehrmlive.com/]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Admin]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[admin123]]>
-              </value>
-            </param>
-          </params>
+    <test name="Default test" duration-ms="1498" started-at="2019-12-12T13:36:44Z" finished-at="2019-12-12T13:36:46Z">
+      <class name="package2.Excel">
+        <test-method status="PASS" signature="Excel()[pri:0, instance:package2.Excel@42d80b78]" name="Excel" duration-ms="1452" started-at="2019-12-12T13:36:44Z" finished-at="2019-12-12T13:36:46Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyLogin -->
-      </class> <!-- package2.ProductPageTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- Excel -->
+      </class> <!-- package2.Excel -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
